@@ -25,7 +25,7 @@ hash-collection-plugin should be placed after hash generate plugin, then it will
 ### Example
 
 ```javascript
-new HashPlugin({
+new HashCollectionPlugin({
   outputPath: '../is-join/is-join-config/src/main/resources',
   isMerge: true,
   filename: 'version',
