@@ -1,7 +1,7 @@
 {
   "name": "hash-collection-plugin",
   "description": "hash collection plugin with webpack like api.",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "author": "zon<zqzhong1211@163.com>",
   "license": "MIT",
   "scripts": {
