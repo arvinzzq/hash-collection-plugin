@@ -40,7 +40,7 @@ HashCollectionPlugin.prototype.apply = function (compiler) {
     .emit
     .tap(pluginName, compilation => {
       const {assets, outputOptions} = compilation;
-      const pathRelative = path.relative(process.cwd(), outputOptions.path);
+      const pathRelative = path.relative(cwd, outputOptions.path);
       const cssHashMap = {};
       const jsHashMap = {};
       const jsReg = /^js\//;
