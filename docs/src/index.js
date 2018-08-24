@@ -1,3 +1,2 @@
-const target = require('../../src/app');
-console.log('heiheihei')
-console.log(`hello ${target}`);
+const target = require('../../src/HashCollectionPlugin');
+// Unit test TBD
