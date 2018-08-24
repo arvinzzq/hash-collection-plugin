@@ -1,0 +1,24 @@
+{
+  "name": "hash-collection-plugin",
+  "description": "hash collection plugin with webpack like api.",
+  "version": "0.0.1",
+  "author": "zon<zqzhong1211@163.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "babel docs/src -d docs/dist --watch",
+    "build": "babel src -d lib",
+    "release": "npm run build && npm publish"
+  },
+  "keywords": [
+    "hash",
+    "collection",
+    "plugin",
+    "webpack"
+  ],
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-stage-0": "^6.24.1"
+  },
+  "dependencies": {}
+}
