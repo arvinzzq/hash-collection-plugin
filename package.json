@@ -3,6 +3,7 @@
   "description": "hash collection plugin with webpack like api.",
   "version": "0.0.4",
   "author": "zon<zqzhong1211@163.com>",
+  "repository": "git@github.com:zz1211/hash-collection-plugin.git",
   "license": "MIT",
   "scripts": {
     "dev": "babel docs/src -d docs/dist --watch",

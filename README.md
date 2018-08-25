@@ -24,6 +24,35 @@ hash-collection-plugin should be placed after hash generate plugin, then it will
 
 ### Example
 
+#### Json-like version config
+
+Code Snippet:
+
+```javascript
+new HashCollectionPlugin()
+```
+
+Output:
+
+```
+// css_version.json
+{
+  "css/main": "build/css/main_47d448e638e7a8599b08.css",
+  "css/login": "build/css/login_4637dac3d936a233aa8b.css"
+}
+
+// js_version.json
+
+{
+  "js/main": "build/js/main_210fdd3c648cd70c0c2a.js",
+  "js/login": "build/js/login_ba156756af82b3268698.js"
+}
+```
+
+#### Java-like version config
+
+Code Snippet:
+
 ```javascript
 new HashCollectionPlugin({
   outputPath: '../is-join/is-join-config/src/main/resources',
@@ -34,6 +63,16 @@ new HashCollectionPlugin({
     return Object.keys(data).map(key => `${key.replace(/\//g, '.')}=${data[key]}\n`).join('');
   }
 })
+```
+
+Ouput:
+
+```
+// version.properties
+css.main=build/css/main_47d448e638e7a8599b08.css
+css.login=build/css/login_4637dac3d936a233aa8b.css
+js.main=build/js/main_210fdd3c648cd70c0c2a.js
+js.login=build/js/login_ba156756af82b3268698.js
 ```
 
 TBD
