@@ -1,3 +1,8 @@
+
+
+[![npm version](https://img.shields.io/npm/v/hash-collection-plugin.svg)](https://www.npmjs.com/package/hash-collection-plugin)
+[![npm download](https://img.shields.io/npm/dt/hash-collection-plugin.svg)](https://www.npmjs.com/package/hash-collection-plugin)
+
 # hash-collection-plugin
 
 A hash #⃣️  collection plugin with webpack like api.
